@@ -6,5 +6,12 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Brush brush = Brushes.Silver;
+            Graphics gr = this.CreateGraphics();
+            gr.FillEllipse(brush, 0, 0, 100, 35);
+        }
     }
 }
