@@ -12,6 +12,9 @@ namespace WinFormsApp1
             Brush brush = Brushes.Silver;
             Graphics gr = this.CreateGraphics();
             gr.FillEllipse(brush, 0, 0, 100, 35);
+            brush = Brushes.Maroon;
+            gr.FillEllipse(brush, 100, 100, 100, 100);
+            gr.Dispose();
         }
     }
 }
